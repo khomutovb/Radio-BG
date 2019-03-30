@@ -71,11 +71,4 @@
         display: block;
     }
 }
-@media all and (max-width:450px){
-    .submenu .facebook{
-        width: 10px;
-        height: 10px;
-        
-    }
 
-}
