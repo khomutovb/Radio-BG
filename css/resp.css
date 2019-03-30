@@ -65,10 +65,17 @@
         display: none;
     }
     .con-logo .logo{
-        width: 220px;
         margin-left:55px;
     }
     header .container {
         display: block;
     }
+}
+@media all and (max-width:450px){
+    .submenu .facebook{
+        width: 10px;
+        height: 10px;
+        
+    }
+
 }
