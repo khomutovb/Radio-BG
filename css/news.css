@@ -1,0 +1,135 @@
+@import "resp.css";
+@import "style.css";
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    max-width: 1100px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.head_title{
+    color: #FE0065;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.list{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 939px;
+    
+}
+.block1{
+    background: #FE0065;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -3px;  
+    text-align: center;
+    width: 70px; 
+    height: 83px;
+    display: inline-block;
+    vertical-align: top;
+}
+.item{
+    margin:40px 0;
+}
+.month{
+    display: block;
+    font-size:15px;
+    color:#820034;
+    text-transform: uppercase;
+    letter-spacing: 0; 
+    border-bottom: 1px solid #FE617B;    
+}
+.block2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.block2 img{
+    width: 280px;
+}
+.block3{
+    display: inline-block;
+    margin-top:-5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 540px;
+}
+.title{
+    color: #3e454c;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    width: 420px;
+    margin:0;
+    transition: color 0.4s;
+}
+.title:hover{
+    color:#FE0065;
+    transition: color 0.4s;
+}
+.box_views{
+    padding: 0;
+}
+.views{
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#FE0065;
+    transition: color 0.4s
+}
+.views:hover{
+    color: #3e454c; 
+    transition: color 0.4s;
+}
+.views::before{
+    content: "";
+    background-image: url(https://icon-icons.com/icons2/936/PNG/32/book_icon-icons.com_73655.png);
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    
+
+}
+.text{
+    font-size: 14px;
+    color: #3e454c;
+}
+.link{
+    background: #363f45;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    padding: 0 20px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.4s;
+}
+.link:hover{
+    background: #FE0065;
+    transition: background 0.4s;
+}
