@@ -12,7 +12,7 @@
         padding: 0;
     }
     .background{
-    background: url(../image/background.bmp) ;
+    background: url(../image/background.bmp) no-repeat scroll center center / cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
