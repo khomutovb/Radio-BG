@@ -1,5 +1,5 @@
 @import "resp.css";
-    @font-face {
+@font-face {
     font-family: 'Caviar Dreams';
     src: local('Caviar Dreams'), 
          url('../fonts/caviar-dreams-bold.ttf') format('truetype');
