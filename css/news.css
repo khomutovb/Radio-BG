@@ -1,44 +1,23 @@
 @import "resp.css";
 @import "style.css";
+
 *{
     box-sizing: border-box;
 }
+
 html{
-    overflow: inherit; 
+    overflow: initial; 
 }
 body{
-    overflow: inherit;
-
+    overflow: initial;
 }
 body{
     font-family: 'Caviar Dreams';
 }
-a{
-    text-decoration: none;
-}
-.content{
-    max-width: 980px;
-    margin: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-.head_title{
-    color: #FE0065;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-}
-ul{
-    list-style: none;
-}
 .list{
-    margin: auto;
-    padding: 0;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;  
 }
 .block1{
     background: #FE0065;
@@ -52,8 +31,11 @@ ul{
     vertical-align: top;
     margin-left:10px;
 }
+.item:first-child{
+    margin:80px 0 0 0;
+}
 .item{
-    margin:90px 0 0 0;
+    margin:30px 0 10px 0;
 }
 .month{
     display: block;
@@ -68,36 +50,33 @@ ul{
     margin-left: 10px;
     margin-right: 10px;
 }
-.block2 img{
-    width: 280px;
-}
+
 .block3{
     display: inline-block;
     margin-top:-3px;
     vertical-align: top;
-    width: 540px;
+    width: 500px;
 }
 .title{
     color: #3e454c;
-    text-transform: uppercase;
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: -.5px;
-    font-weight: 300;
-    width: 420px;
+    padding: 5px 0;
     transition: color 0.4s;
 }
 .title:hover{
-    color:#FE0065;
+    color:#dc278c;
     transition: color 0.4s;
 }
 .box_views{
-    padding: 0;
+    width: 100%;
 }
 .views{
     font-size: 15px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color:#FE0065;
+    color:#dc278c;
+    padding: 5px 0;
+    letter-spacing: 0;
+    font-weight: 600;
     transition: color 0.4s
 }
 .views:hover{
@@ -105,7 +84,7 @@ ul{
     transition: color 0.4s;
 }
 .text{
-    color: #3e454c;
+    padding: 5px 0;
 }
 .link{
     background: #363f45;
@@ -118,9 +97,7 @@ ul{
     line-height: 45px;
     margin-top: 10px;
     text-align: center;
-    text-transform: uppercase;
     transition: background 0.4s;
-    margin-top:40px;
 }
 .link:hover{
     background: #FE0065;
