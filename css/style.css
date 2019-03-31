@@ -5,7 +5,6 @@
          url('../fonts/caviar-dreams-bold.ttf') format('truetype');
     }
     html{ height:100%; min-height:100%; }
-    body{ min-height:100%; } 
     *{
         box-sizing: border-box;
         margin: 0;
@@ -21,6 +20,7 @@
     -o-background-size: cover; 
     background-size: cover; 
     overflow: hidden;
+    min-height:100%; 
     }
     header{
         position: relative;
@@ -163,7 +163,7 @@
         border-radius: 3px;
         display: block;
         position: relative;
-        padding: 10px 7px;
+        padding: 13px 9px;
         float: left;
     }
     .main-content #sidebar-toggle .bar{
