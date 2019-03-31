@@ -11,7 +11,7 @@
         padding: 0;
     }
     .background{
-    background: url(../image/background.bmp) no-repeat scroll center center / cover;
+    background: url(../image/background.bmp) no-repeat center center / cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -163,7 +163,7 @@
         border-radius: 3px;
         display: block;
         position: relative;
-        padding: 13px 9px;
+        padding: 13px 9px 13px 9px;
         float: left;
     }
     .main-content #sidebar-toggle .bar{
@@ -173,7 +173,4 @@
         height: 2px;
         background-color: #000;
         border-radius: 1px;
-    }
-    .exit{
-        background: red;
     }
