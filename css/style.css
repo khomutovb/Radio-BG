@@ -21,6 +21,7 @@
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
+    height: 700px;
     }
     header{
         position: relative;
@@ -119,7 +120,7 @@
     #sidebar {
         position: absolute;
         width: 160px;
-        height: 1000px;
+        height: 700px;
         left: -160px;
         background: #141414;
     }
