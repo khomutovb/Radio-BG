@@ -73,7 +73,7 @@
         flex-direction: row;   
     }   
     .submenu li {
-        margin: -10px 15px;
+        margin: -10px 9px;
     } 
     .fa-facebook{
         transition: color 0.4s;
