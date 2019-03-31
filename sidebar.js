@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("[data-toggle]").click(function() {
         if (!$(this).data('status')) {
+            $(this).addClass("fa fa-bars fa-2x");
             $(this).removeClass("fa fa-bars fa-2x");
             $(this).addClass("fa fa-times fa-2x");
             $(this).data('status', true);
