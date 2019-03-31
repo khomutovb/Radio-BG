@@ -3,8 +3,16 @@
 *{
     box-sizing: border-box;
 }
+html{
+
+    overflow: inherit; 
+}
 body{
-    font-family: 'Open Sans', sans-serif;
+    overflow: inherit;
+
+}
+body{
+    font-family: 'Caviar Dreams';
 }
 a{
     text-decoration: none;
@@ -17,7 +25,6 @@ a{
 }
 .head_title{
     color: #FE0065;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 40px;
@@ -28,26 +35,26 @@ ul{
     list-style: none;
 }
 .list{
-    position: relative;
     margin: auto;
     padding: 0;
-    width: 939px;
+    display: flex;
+    flex-direction: column;
     
 }
 .block1{
     background: #FE0065;
     color: #fff;
     font-size: 40px;
-    font-weight: 600;
-    letter-spacing: -3px;  
+    font-weight: 600;  
     text-align: center;
     width: 70px; 
     height: 83px;
     display: inline-block;
     vertical-align: top;
+    margin-left:10px;
 }
 .item{
-    margin:40px 0;
+    margin:90px 0 0 0;
 }
 .month{
     display: block;
@@ -101,18 +108,7 @@ ul{
     color: #3e454c; 
     transition: color 0.4s;
 }
-.views::before{
-    content: "";
-    background-image: url(https://icon-icons.com/icons2/936/PNG/32/book_icon-icons.com_73655.png);
-    background-size: 14px 14px;
-    width: 14px;
-    height: 14px;
-    display: inline-block;
-    
-
-}
 .text{
-    font-size: 14px;
     color: #3e454c;
 }
 .link{
@@ -133,3 +129,6 @@ ul{
     background: #FE0065;
     transition: background 0.4s;
 }
+    .fa-book{
+        color:black;
+    }

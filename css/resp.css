@@ -11,7 +11,7 @@
         padding-left: 30px;
     }
     .content .list{
-        width: 729px
+        max-width: 729px
     }
 }
 @media all and (max-width:915px){
@@ -34,7 +34,6 @@
     padding: 0;
     font-size: inherit;
     margin-bottom: 10px;
-    position: relative;
     letter-spacing: 0px;  
     left:10px;
     }
