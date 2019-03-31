@@ -1,9 +1,10 @@
 $(document).ready(function() {
     $("[data-toggle]").click(function() {
+        $(".logo").hide("fast");
       var toggle_el = $(this).data("toggle");
       $(toggle_el).toggleClass("open-sidebar");
+      $(".logo").css("display","block");
     });
-  
   });
   $(".swipe-area").swipe({
       swipeStatus:function(event, phase, direction, distance, duration, fingers)
