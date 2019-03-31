@@ -5,22 +5,22 @@
          url('../fonts/caviar-dreams-bold.ttf') format('truetype');
     }
     html{ height:100%; min-height:100%; }
+    body{overflow: hidden;min-height:100%; }
     *{
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
     .background{
-    background: url(../image/background.bmp) no-repeat center center / cover;
+    overflow: hidden;
+    background: url(../image/background.bmp) no-repeat scroll center center / cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
-    background-size: cover; 
-    overflow: hidden;
-    min-height:100%; 
+    background-size: cover;
     }
     header{
         position: relative;
@@ -103,6 +103,7 @@
         -ms-transition:  left 0.4s ease-in-out;
         -o-transition:  left 0.4s ease-in-out;
         transition:  left 0.4s ease-in-out;
+
     }
     .container.open-sidebar {
         left: 160px;
