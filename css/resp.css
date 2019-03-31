@@ -78,9 +78,13 @@
     }
     .con-logo .logo{
         margin-left:50px;
+        width: 120px;
     }
     header .container {
         display: block;
+    }
+    .container-submenu .submenu {
+        margin-left:40px;
     }
 }
 

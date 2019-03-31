@@ -80,12 +80,15 @@
     } 
     .fa-facebook{
         transition: color 0.4s;
+        padding:1px;
     }
     .fa-twitter{
         transition: color 0.4s;
+        padding:1px;
     }
     .fa-instagram{
         transition: color 0.4s;
+        padding:1px;
     }
     .fa-facebook:hover{
         color: #dc278c;
@@ -166,7 +169,8 @@
         border-radius: 3px;
         display: block;
         position: relative;
-        padding: 13px 9px 13px 9px;
+        padding: 13px 0px 13px 0px;
+        margin-left:-3px;
         float: left;
     }
     .main-content #sidebar-toggle .bar{
@@ -178,8 +182,8 @@
         border-radius: 1px;
     }
     .fa-bars{
-        margin-top:-10px;
+        margin-top:-3px;
     }
     .fa-times{
-        margin-top:-10px;
+        margin-top:-1px;
     }

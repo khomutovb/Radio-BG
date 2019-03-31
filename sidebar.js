@@ -1,14 +1,14 @@
 $(document).ready(function() {
     $("[data-toggle]").click(function() {
         if (!$(this).data('status')) {
-            $(this).addClass("fa fa-bars fa-2x");
-            $(this).removeClass("fa fa-bars fa-2x");
-            $(this).addClass("fa fa-times fa-2x");
+            $(this).addClass("fa fa-bars fa-lg");
+            $(this).removeClass("fa fa-bars fa-lg");
+            $(this).addClass("fa fa-times fa-lg");
             $(this).data('status', true);
           }
           else {
-            $(this).removeClass("fa fa-times fa-2x");
-            $(this).addClass("fa fa-bars fa-2x");
+            $(this).removeClass("fa fa-times fa-lg");
+            $(this).addClass("fa fa-bars fa-lg");
             $(this).data('status', false);
           }
         $(".logo").hide("fast");
