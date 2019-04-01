@@ -29,7 +29,7 @@
 }
 
 
-@media all and (max-width:792px){
+@media all and (max-width:800px){
      .item .block1{
     width: 80px; 
     height: 30px;
