@@ -90,9 +90,6 @@
     .player audio{
         width: 100%;
     }
-    .player  #playlist{
-        width: 100%;
-    }
 }
 @media all and (max-width:320px){
     .con-logo .logo{
