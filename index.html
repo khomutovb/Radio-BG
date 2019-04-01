@@ -6,7 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="css/style.css">
-    <script src="sidebar.js"></script>
+    <script src="main.js"></script>
+    <script src="audioPlayer.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Radio BG</title>
 </head>
@@ -48,11 +49,17 @@
         </ul>
     </div>
 </header>
-<div style="height:50px">
-    
+<div class="player">
+<audio src="" controls id="audioPlayer" autoplay="preload">
+    Sorry, your browser doesn't support html5!
+</audio>
+<ul id="playlist">
+    <li class="current-song song"><a href="music/track1.mp3">Ярмарок шампанського</a></li>
+    <li class="song"><a href="music/track2.mp3">50 відтінків кіно</a></li>   
+</ul>
 </div>
-<div class="soundcloud">
-    <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/435486087&color=%23d0258d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-</div>    
+<script>
+    audioPlayer();
+</script>
 </body>
 </html>
