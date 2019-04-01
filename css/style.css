@@ -127,7 +127,7 @@
         height: 10000px;
         left: -160px;
         background: #141414;
-        z-index: 9999;
+        z-index: 999;
     }
     #sidebar ul {
         margin: 0;
@@ -198,20 +198,28 @@
         position: absolute;      
         bottom:0; 
         width:100%; 
+        z-index: 0;
     }
     audio{
         display: flex;
         justify-content: center; 
         align-items: center;
         margin:auto;
-        width: 600px;
+        width:600px;
+        z-index: 1;
         }
+
     #playlist{
-        background: #141414;
+        background: #F1F3F4;
         display: block;
         text-align: center;
         margin:auto;
-        width: 540px;      
+        width: 540px;  
+    }
+    #playlist .song a{
+        color:#000;
+        font-weight:600;
+         
     }
     
     
