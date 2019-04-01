@@ -194,12 +194,6 @@
         width:100%;
         padding:30px 140px;
     } 
-    .player{
-        position: absolute;      
-        bottom:0; 
-        width:100%; 
-        z-index: 0;
-    }
     audio{
         display: flex;
         justify-content: center; 
@@ -221,5 +215,11 @@
         font-weight:600;
          
     }
+    #wrapper {
+	position: absolute;      
+    bottom:0; 
+    width:100%; 
+    z-index: 0;
+}
     
     
