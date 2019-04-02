@@ -1,18 +1,8 @@
-@media all and (max-height:1200px){
-    body .wrapper {    
-        top:1000px; 
-    }
-}
-@media all and (max-height:800px){
-    body .wrapper {    
-        top:800px; 
-    }
-}
 @media all and (max-width:1165px){
     .item .block2 img{
         height: 150px ;
     }
-    /* .block3 a .title{
+   /* .block3 a .title{
         width: 420px;
     } */
     .item .block3{
