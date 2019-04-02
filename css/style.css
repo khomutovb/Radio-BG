@@ -121,6 +121,7 @@
         left: 0;
         top: 0;
         background: #141414;
+        opacity: 0;
         height: 10000px;
     }
     #sidebar {
