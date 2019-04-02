@@ -117,8 +117,9 @@
     .swipe-area {
         display: block;
         position: absolute;
+        z-index: 0;
         width: 15px;
-        padding-left: 80px;
+        padding-left: 40px;
         opacity: 0.01;
         background: #141414;
         left: 0;
@@ -229,16 +230,13 @@
         display: none;
         position: absolute;      
         width:100%; 
-        z-index: -1;
     }
     .soundcloud{
-        justify-content: center; 
-        align-items: center;
+        position: absolute;
         width:100%;
         padding:30px 140px;
         background: #141414;  
-        position: absolute;
-        z-index:3;
+        
     }
     .opened{
         display: block;
