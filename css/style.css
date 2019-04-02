@@ -116,7 +116,7 @@
     }
     .swipe-area {
         position: absolute;
-        width: 8px;
+        width: 7px;
         left: 0;
         top: 0;
         height: 10000px;
@@ -157,7 +157,7 @@
     .main-content {
         width: 100%;
         height: 100%;
-        padding: 10px 14px;
+        padding: 10px 16px;
         position: relative;
     }
     .main-content .content{
