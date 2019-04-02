@@ -119,6 +119,7 @@
         width: 15px;
         left: 0;
         top: 0;
+        background: #fff;
         height: 10000px;
         z-index: 1000;
     }
