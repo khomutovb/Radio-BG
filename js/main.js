@@ -19,7 +19,9 @@ $(document).ready(function() {
 		
 	});
  $("#opensc").click(function(){
-	$(".wrapper").toggleClass('opened');
+        var height = $( 'body' ).height();
+        $( '.wrapper' ).css("top",height); 
+	$(".wrapper").toggleClass('opened'); 
     if($(".wrapper").hasClass('opened')) {
         $("#opensc").html('Close soundcloud');
     }
