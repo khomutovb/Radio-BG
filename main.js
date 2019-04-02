@@ -17,8 +17,8 @@ $(document).ready(function() {
 		$(".logo").css("display","block"); 
 		
 	});
-$("#opensc").click(function(){
-	$(".wrapper").toggleClass('opened').slideToggle("slow");
+ $("#opensc").click(function(){
+	$(".wrapper").toggleClass('opened');
     if($(".wrapper").hasClass('opened')) {
         $("#opensc").html('Close soundcloud');
     }
@@ -30,8 +30,8 @@ $("#opensc").click(function(){
 	var elementClick = $(this).attr("href");
 	var destination = $(elementClick).offset().top;
 	$('html, body').animate({ scrollTop: destination }, 2000);
-});
-/* $("#opensc").click(function(){
+}); 
+ /* $("#opensc").click(function(){
 	$("#opensc").hide();
 	$(".wrapper").toggleClass('opened');
     if($(".wrapper").hasClass('opened')) {
@@ -43,7 +43,7 @@ $("#opensc").click(function(){
     else {
         $("#opensc").html('Open soundcloud');
     }
-}); */
+});  */
   $(".swipe-area").swipe({
       swipeStatus:function(event, phase, direction, distance, duration, fingers)
           {
