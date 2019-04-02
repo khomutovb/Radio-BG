@@ -14,9 +14,22 @@ $(document).ready(function() {
         $(".logo").hide("fast");
         var toggle_el = $(this).data("toggle");
         $(toggle_el).toggleClass("open-sidebar");
-        $(".logo").css("display","block"); 
-    });
-  });
+		$(".logo").css("display","block"); 
+		
+	});
+$("#opensc").click(function(){
+	$("#opensc").hide("");
+	$(".wrapper").toggleClass('opened');
+    if($(".wrapper").hasClass('opened')) {
+	var elementClick = $(this).attr("href");
+    var destination = $(elementClick).offset().top;
+    $('html, body').animate({ scrollTop: destination }, 2000);
+        $("#opensc").html('Close soundcloud');
+    }
+    else {
+        $("#opensc").html('Open soundcloud');
+    }
+});
   $(".swipe-area").swipe({
       swipeStatus:function(event, phase, direction, distance, duration, fingers)
           {
@@ -30,4 +43,4 @@ $(document).ready(function() {
               }
           }
   });
-  
+});

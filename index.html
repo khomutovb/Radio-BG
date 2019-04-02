@@ -18,7 +18,7 @@
         <div class="container">
                 <div id="sidebar">
                     <ul>
-                        <li><a href="index.html">Головна</a></li>
+                        <li class="top"><a href="index.html">Головна</a></li>
                         <li><a href="news.html">Новини</a></li>
                         <li><a href="#">Проекти</a></li>
                         <li><a href="#">Розклад</a></li>
@@ -51,15 +51,21 @@
         </ul>
     </div>
 </header>
-<div id="wrapper">
-    <audio preload="auto" controls>
+<div class="container-btn"> 
+        <a href="#down" id="opensc">Open soundcloud</a>
+</div>
+<div class="wrapper" id="down">    
+        <div class="container-sc">
+        <iframe class="soundcloud" width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/435486087&color=%23d0258d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div> 
+        <!-- <audio preload="auto" controls>
         <source src="music/track1.mp3">
         <source src="music/track1.ogg">
         <source src="music/track1.wav">
     </audio>
     <script src="js/jquery.js"></script>
     <script src="js/audioplayer.js"></script>
-    <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
-</div>
+    <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>  -->
+</div>  
 </body>
 </html>

@@ -33,6 +33,7 @@
     background: url(../image/background.bmp) no-repeat scroll center center / cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color:#141414;
     }
     .logo{
         width: 200px;
@@ -186,40 +187,56 @@
     }
     .fa-times{
         margin-top:-1px;
+    }    
+    
+    .container-btn{
+    position: absolute; 
+    width:100%;  
+    bottom:20px;  
     }
-     .soundcloud{
-        display: flex;
+    button {
+        margin: 0;
+        padding: 0;
+        background: none;    
+        border: none;
+        outline: none;
+    }
+    #opensc{
+    cursor: pointer;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin:auto;
+    width: 210px;
+    font-family: 'Caviar Dreams';
+    font-weight: 600;
+    background: #fff; 
+    color: #141414;
+    padding: 10px 32px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50px;
+    transition: background 0.4s;
+    }
+    #opensc:hover{
+    background: #141414; 
+    color: #fff;
+    }
+    .wrapper {
+        display: none;
+	    position: absolute;      
+        top:655px; 
+        width:100%; 
+        z-index: -1;
+    }
+    .soundcloud{
         justify-content: center; 
         align-items: center;
         width:100%;
         padding:30px 140px;
-    } 
-    audio{
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        margin:auto;
-        width:600px;
-        z-index: 1;
-        }
-
-    #playlist{
-        background: #F1F3F4;
+        background: #141414;  
+    }
+    .opened{
         display: block;
-        text-align: center;
-        margin:auto;
-        width: 300px;  
     }
-    #playlist .song a{
-        color:#000;
-        font-weight:600;
-         
-    }
-    #wrapper {
-	position: absolute;      
-    bottom:0; 
-    width:100%; 
-    z-index: 0;
-}
-    
     
