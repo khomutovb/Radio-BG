@@ -118,7 +118,9 @@
         display: block;
         position: absolute;
         width: 15px;
-        padding-left: 80px;
+        padding-left: 100px;
+        opacity: 0.01;
+        background: #141414;
         left: 0;
         top: 0;
         height: 10000px;
