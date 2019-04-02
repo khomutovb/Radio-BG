@@ -117,11 +117,10 @@
     .swipe-area {
         position: absolute;
         width: 15px;
+        padding-left: 60px;
         left: 0;
         top: 0;
-        background: #fff;
         height: 10000px;
-        z-index: 1000;
     }
     #sidebar {
         position: absolute;
@@ -129,7 +128,7 @@
         height: 10000px;
         left: -160px;
         background: #141414;
-        z-index: 999;
+        z-index: 0;
     }
     #sidebar ul {
         margin: 0;
@@ -159,7 +158,6 @@
         width: 100%;
         height: 100%;
         padding: 10px 26px;
-        position: relative;
     }
     .main-content .content{
         box-sizing: border-box;
