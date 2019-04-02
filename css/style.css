@@ -115,13 +115,12 @@
         left: 160px;
     }
     .swipe-area {
+        display: block;
         position: absolute;
         width: 15px;
-        padding-left: 60px;
+        padding-left: 80px;
         left: 0;
         top: 0;
-        background: #141414;
-        opacity: 0;
         height: 10000px;
     }
     #sidebar {
@@ -159,7 +158,7 @@
     .main-content {
         width: 100%;
         height: 100%;
-        padding: 10px 26px;
+        padding: 10px 15px;
     }
     .main-content .content{
         box-sizing: border-box;
