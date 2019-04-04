@@ -5,22 +5,22 @@
     src: local('Caviar Dreams'), url('../fonts/caviar-dreams-bold.ttf') format('truetype');
 }
 
-html {
+    html {
     height: 100%;
     min-height: 100%;
 }
 
-body {
+    body {
     min-height: 100%;
 }
 
-* {
+    * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header {
+    header {
     position: fixed;
     width: 100%;
     height: 60px;
@@ -32,28 +32,19 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    z-index: 2;
-}
+    z-index: 2;}
 
-.background {
-    background: url(../image/background.bmp) no-repeat scroll center center / cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #141414;
-    overflow: hidden;
-}
-
-.logo {
+    .logo {
     width: 200px;
 }
 
-ul {
+    ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.list-nav {
+    .list-nav {
     display: flex;
     justify-content: center;
 }
@@ -67,7 +58,7 @@ ul {
         margin-right: 14px;
     }
 
-a {
+    a {
     text-decoration: none;
     color: #fff;
     font-family: 'Caviar Dreams';
@@ -76,16 +67,16 @@ a {
     transition: color 0.5s;
 }
 
-.list-nav li a span {
+    .list-nav li a span {
     color: #23A5B0;
 }
 
-.list-nav li a:hover {
+    .list-nav li a:hover {
     color: #23A5B0;
     text-decoration: none;
 }
 
-.submenu {
+    .submenu {
     display: flex;
     flex-direction: row;
 }
@@ -94,34 +85,34 @@ a {
         margin: -10px 9px;
     }
 
-.fa-facebook {
+    .fa-facebook {
     transition: color 0.4s;
-    padding: 1px;
+    padding: 5px;
 }
 
-.fa-twitter {
+    .fa-twitter {
     transition: color 0.4s;
-    padding: 1px;
+    padding: 5px;
 }
 
-.fa-instagram {
+    .fa-instagram {
     transition: color 0.4s;
-    padding: 1px;
+    padding: 5px;
 }
 
-.fa-facebook:hover {
+    .fa-facebook:hover {
     color: #dc278c;
 }
 
-.fa-twitter:hover {
+    .fa-twitter:hover {
     color: #dc278c;
 }
 
-.fa-instagram:hover {
+    .fa-instagram:hover {
     color: #dc278c;
 }
 
-.container {
+    .container {
     display: none;
     position: absolute;
     height: 100%;
@@ -135,9 +126,9 @@ a {
 
     .container.open-sidebar {
         left: 160px;
-    }
+}
 
-.swipe-area {
+    .swipe-area {
     position: absolute;
     padding-left: 55px;
     opacity: 0.01;
@@ -147,7 +138,7 @@ a {
     height: 10000px;
 }
 
-#sidebar {
+    #sidebar {
     position: absolute;
     width: 160px;
     height: 10000px;
@@ -157,110 +148,103 @@ a {
 }
 
     #sidebar ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-        #sidebar ul li {
-            margin: 0;
-        }
+    #sidebar ul li {
+    margin: 0;
+}
 
-            #sidebar ul li a {
-                font-size: 20px;
-                color: white;
-                padding: 18px 0px;
-                text-decoration: none;
-                text-align: center;
-                display: block;
-                -webkit-transition: background 0.3s ease-in-out;
-                -moz-transition: background 0.3s ease-in-out;
-                -ms-transition: background 0.3s ease-in-out;
-                -o-transition: background 0.3s ease-in-out;
-                transition: background 0.3s ease-in-out;
-            }
-
-            #sidebar ul li:hover a {
-                background: #b6006e;
-            }
-
-.main-content {
+    #sidebar ul li a {
+    font-size: 20px;
+    color: white;
+    padding: 18px 0px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+    #sidebar ul li:hover a {
+    background: #b6006e;
+}
+    .main-content {
     width: 100%;
     height: 100%;
     padding: 10px 15px;
 }
-
     .main-content .content {
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        padding-left: 60px;
-        width: 100%;
-    }
-
-    .main-content #sidebar-toggle {
-        border-radius: 3px;
-        display: block;
-        position: relative;
-        padding: 13px 0px 13px 0px;
-        margin-left: -3px;
-        float: left;
-    }
-
-        .main-content #sidebar-toggle .bar {
-            display: block;
-            width: 18px;
-            margin-bottom: 3px;
-            height: 2px;
-            background-color: #000;
-            border-radius: 1px;
-        }
-
-.fa-bars {
-    margin-top: -3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 60px;
+    width: 100%;
 }
-
-.fa-times {
+    .main-content #sidebar-toggle {
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 13px 8px 13px 10px;
+    margin-left: -8px;
+    float: left;
+}
+    .main-content #sidebar-toggle {
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 13px 8px 13px 10px;
+    margin-left: -8px;
+    float: left;
+}
+    .fa-bars {
+    margin-top: -3px;
+    padding: 15px;
+}
+    .fa-times {
     margin-top: -1px;
+    padding: 5px;
 }
 
 /*///////////////*/
-
-
-@media all and (max-width:320px) {
-    .con-logo .logo {
-        width: 90px;
-    }
-}
-
-@media all and (max-width:800px) {
-
-    .container-list .list-nav {
-        display: none;
-    }
-
-    .con-logo .logo {
-        margin-left: 50px;
-        width: 120px;
-    }
-
-    header .container {
-        display: block;
-    }
-
-    .container-submenu .submenu {
-        margin-left: 40px;
-    }
-
-
-}
 
 @media all and (max-width:915px) {
     .container-list .list-nav li {
         font-size: 16px;
     }
-
+}
+@media all and (max-width:810px) {
+    .container-list .list-nav {
+        display: none;
+    }
     .con-logo .logo {
+        margin-left: 50px;
         width: 140px;
     }
-
+    header .container {
+        display: block;
+    }
+    .container-submenu .submenu {
+        margin-left: 40px;
+    }
+}
+@media all and (max-width:360px) {
+    .submenu li {
+        margin: -10px 4px;
+    }
+    .submenu .fa-facebook{
+        font-size:11px;
+    }
+    .submenu .fa-twitter{
+        font-size:11px;
+    }
+    .submenu .fa-instagram{
+        font-size:11px;
+    }
+    .main-content .fa-bars{
+        font-size: 14px;
+    }
 }
