@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88290392-B518-42FD-AF6A-C0E95498DE69}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		leading.html = leading.html
+		news.html = news.html
+		projects.html = projects.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{03526E3F-905C-476A-83BF-543F7C5A9343}"
+	ProjectSection(SolutionItems) = preProject
+		css\audioplayer.css = css\audioplayer.css
+		css\header.css = css\header.css
+		css\index.css = css\index.css
+		css\leading.css = css\leading.css
+		css\news.css = css\news.css
+		css\projects.css = css\projects.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{D4A2510D-BD69-4E39-9AB5-85182509513B}"
+	ProjectSection(SolutionItems) = preProject
+		image\background.bmp = image\background.bmp
+		image\logo.png = image\logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{F382B45A-305F-4CA2-A105-BD6111991D0D}"
+	ProjectSection(SolutionItems) = preProject
+		js\header.js = js\header.js
+		js\index.js = js\index.js
+		js\jquery.touchSwipe.min.js = js\jquery.touchSwipe.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{B796CB4C-136C-4265-BC34-ABC75D51B96C}"
+	ProjectSection(SolutionItems) = preProject
+		fonts\caviar-dreams-bold.ttf = fonts\caviar-dreams-bold.ttf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03526E3F-905C-476A-83BF-543F7C5A9343} = {88290392-B518-42FD-AF6A-C0E95498DE69}
+		{D4A2510D-BD69-4E39-9AB5-85182509513B} = {88290392-B518-42FD-AF6A-C0E95498DE69}
+		{F382B45A-305F-4CA2-A105-BD6111991D0D} = {88290392-B518-42FD-AF6A-C0E95498DE69}
+		{B796CB4C-136C-4265-BC34-ABC75D51B96C} = {88290392-B518-42FD-AF6A-C0E95498DE69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B62858A-96E1-437B-BCB0-2AEBB98B145F}
+	EndGlobalSection
+EndGlobal

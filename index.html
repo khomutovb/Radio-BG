@@ -1,69 +1,74 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Radio BG</title>
 </head>
 <body class="background">
-<header>
+    <header>
         <div class="container">
-                <div id="sidebar">
-                    <ul>
-                        <li class="top"><a href="index.html">Головна</a></li>
-                        <li><a href="news.html">Новини</a></li>
-                        <li><a href="#">Проекти</a></li>
-                        <li><a href="#">Розклад</a></li>
-                        <li><a href="#">Ведучі</a></li>
-                        <li><a href="#">Контакти</a></li>
-                    </ul>
-                </div>   
-    <div class="main-content">
-        <div class="swipe-area"></div>
-            <a href="#" class="but fa fa-bars fa-lg"  data-toggle=".container" id="sidebar-toggle"></a>
+            <div id="sidebar">
+                <ul>
+                    <li class="top"><a href="index.html">Головна</a></li>
+                    <li><a href="news.html">Новини</a></li>
+                    <li><a href="projects.html">Проекти</a></li>
+                    <li><a href="#">Розклад</a></li>
+                    <li><a href="leading.html">Ведучі</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="swipe-area"></div>
+                <a href="#" class="but fa fa-bars fa-lg" data-toggle=".container" id="sidebar-toggle"></a>
+            </div>
         </div>
-    </div>
-    <div class="con-logo">
-        <a href="index.html"><img class="logo" src="image/logo.png" alt="logo"></a>
-    </div>
-    <div class="container-list">
-        <ul class="list-nav">
-            <li><a href="news.html"><span>Н</span>овини</a></li>
-            <li><a href="#"><span>П</span>роекти</a></li>
-            <li><a href="#"><span>Р</span>озклад</a></li>
-            <li><a href="#"><span>В</span>едучі</a></li>
-            <li><a href="#"><span>К</span>онтакти</a></li>
-        </ul>
-    </div>
-    <div class="container-submenu">
-        <ul class="submenu">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
-            <li><a href="#" class="fa fa-instagram"></a></li>
-        </ul>
-    </div>
-</header>
-<div class="container-btn"> 
+        <div class="con-logo">
+            <a href="index.html"><img class="logo" src="image/logo.png" alt="logo"></a>
+        </div>
+        <div class="container-list">
+            <ul class="list-nav">
+                <li><a href="news.html"><span>Н</span>овини</a></li>
+                <li><a href="projects.html"><span>П</span>роекти</a></li>
+                <li><a href="#"><span>Р</span>озклад</a></li>
+                <li><a href="leading.html"><span>В</span>едучі</a></li>
+                <li><a href="#"><span>К</span>онтакти</a></li>
+            </ul>
+        </div>
+        <div class="container-submenu">
+            <ul class="submenu">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <div class="container-btn">
         <a href="#down" id="opensc">Open soundcloud</a>
-</div>
-<div class="wrapper" id="down">    
+    </div>
+    <div class="wrapper" id="down">
         <div class="container-sc">
-        <iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/435486087&color=%23d0258d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        </div> 
+            <iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/435486087&color=%23d0258d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
         <!-- <audio preload="auto" controls>
-        <source src="music/track1.mp3">
-        <source src="music/track1.ogg">
-        <source src="music/track1.wav">
-    </audio>
-    <script src="js/jquery.js"></script>
-    <script src="js/audioplayer.js"></script>
-    <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>  -->
-</div>  
+            <source src="music/track1.mp3">
+            <source src="music/track1.ogg">
+            <source src="music/track1.wav">
+        </audio>
+        <script src="js/jquery.js"></script>
+        <script src="js/audioplayer.js"></script>
+        <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>  -->
+    </div>
 </body>
 </html>

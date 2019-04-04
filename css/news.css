@@ -1,104 +1,207 @@
-@import "resp.css";
-@import "style.css";
+@import "header.css";
 
-*{
+* {
     box-sizing: border-box;
 }
-header{
+
+header {
     position: fixed;
-}  
-body{
+}
+
+body {
     font-family: 'Caviar Dreams';
 }
-.list{
+
+.list {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
 }
-.block1{
+
+.block1 {
     background: #FE0065;
     color: #fff;
     font-size: 40px;
-    font-weight: 600;  
+    font-weight: 600;
     text-align: center;
-    width: 70px; 
+    width: 70px;
     height: 83px;
     display: inline-block;
     vertical-align: top;
-    margin-left:10px;
+    margin-left: 10px;
 }
-.item:first-child{
-    margin:80px 0 0 0;
+
+.item:first-child {
+    margin: 80px 0 0 0;
 }
-.item{
-    margin:30px 0 10px 0;
+
+.item {
+    margin: 30px 0 10px 0;
 }
-.month{
+
+.month {
     display: block;
-    font-size:15px;
-    color:#820034;
+    font-size: 15px;
+    color: #820034;
     text-transform: uppercase;
-    letter-spacing: 0; 
-    border-bottom: 1px solid #fff;    
+    letter-spacing: 0;
+    border-bottom: 1px solid #fff;
 }
-.block2{
+
+.block2 {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.block3{
+.block3 {
     display: inline-block;
-    margin-top:-3px;
+    margin-top: -3px;
     vertical-align: top;
     width: 500px;
 }
-.title{
+
+.title {
     color: #3e454c;
     font-size: 18px;
     letter-spacing: -.5px;
     padding: 5px 0;
     transition: color 0.4s;
 }
-.title:hover{
-    color:#dc278c;
-    transition: color 0.4s;
-}
-.box_views{
+
+    .title:hover {
+        color: #dc278c;
+        transition: color 0.4s;
+    }
+
+.box_views {
     width: 100%;
 }
-.views{
+
+.views {
     font-size: 15px;
-    color:#dc278c;
+    color: #dc278c;
     padding: 5px 0;
     letter-spacing: 0;
     font-weight: 600;
     transition: color 0.4s
 }
-.views:hover{
-    color: #3e454c; 
-    transition: color 0.4s;
-}
-.text{
+
+    .views:hover {
+        color: #3e454c;
+        transition: color 0.4s;
+    }
+
+.text {
     padding: 5px 0;
 }
-.link{
+
+.link {
     background: #363f45;
     color: #fff;
     display: inline-block;
     font-size: 14px;
-    font-weight: 600;
-    height: 45px;
-    padding: 0 20px;
-    line-height: 45px;
+    padding: 10px;
     margin-top: 10px;
     text-align: center;
     transition: background 0.4s;
-}
-.link:hover{
-    background: #FE0065;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
     transition: background 0.4s;
+    text-transform: initial;
+    letter-spacing: 0;
+    font-size: 16px;
+    width: 30%;
 }
-    .fa-book{
-        color:#000;
+
+    .link:hover {
+        background: #FE0065;
     }
+
+.fa-book {
+    color: #000;
+}
+
+/*////////////////////*/
+
+
+@media all and (max-width:1165px) {
+    .item .block2 img {
+        height: 150px;
+    }
+
+    .item .block3 {
+       
+        padding-left: 30px;
+        display: inline-block;
+    }
+}
+
+
+
+@media all and (max-width:915px) {
+
+    .item .block2 img {
+        height: 90px;
+    }
+}
+
+@media all and (max-width:800px) {
+    .list .item{
+        padding: 0 40px;
+
+    }
+    .item .block1 {
+        width: 80px;
+        height: 30px;
+        padding: 0;
+        font-size: inherit;
+        margin-bottom: 10px;
+        letter-spacing: 0px;
+    }
+
+        .item .block1 time {
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        .item .block1 .month {
+            display: inline;
+            font-size: 15px;
+            border: none;
+        }
+
+    .item .block2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        .item .block2 img {
+            height: 100%;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+    .item .block3 {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+        .item .block3 .title {
+            padding-right: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .item .block3 .link {
+            width: 100px;
+            font-size:14px;
+        }
+}
+
+
+
+
