@@ -79,6 +79,7 @@
     .submenu {
     display: flex;
     flex-direction: row;
+    float: right;
 }
 
     .submenu li {
@@ -227,11 +228,8 @@
     header .container {
         display: block;
     }
-    .container-submenu .submenu {
-        margin-left: 40px;
-    }
 }
-@media all and (max-width:360px) {
+@media all and (max-width:320px) {
     .submenu li {
         margin: -10px 4px;
     }
@@ -246,5 +244,8 @@
     }
     .main-content .fa-bars{
         font-size: 14px;
+    }
+    .con-logo .logo {
+        width: 120px;
     }
 }
